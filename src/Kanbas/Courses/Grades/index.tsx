@@ -116,7 +116,7 @@ export default function Grades() {
                                             <td>100%</td>
                                             <td>
                                                 <div className="input-group border" style={{ borderRadius: "10px" }}>
-                                                    <input type="text" className="form-control text-center border-0" placeholder="88.3" />
+                                                    <input type="text" className="form-control text-center border-0" defaultValue="88.3" />
                                                     <span className="input-group-text" style={{ backgroundColor: "transparent", border: "none" }} >
                                                         <BiImport />
                                                     </span>
