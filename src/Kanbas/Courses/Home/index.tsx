@@ -1,5 +1,4 @@
 import Modules from "../Modules";
-import TopBlock from "../Modules/TopBlock";
 import CourseStatus from "./Status";
 export default function Home() {
     return (

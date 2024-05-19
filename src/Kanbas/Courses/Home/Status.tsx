@@ -6,9 +6,6 @@ import { FaHome } from "react-icons/fa";
 import { RiBarChart2Fill } from "react-icons/ri";
 import { TfiAnnouncement } from "react-icons/tfi";
 import { FaRegBell } from "react-icons/fa";
-{/* Find more icons */ }
-
-
 
 export default function CourseStatus() {
     return (
@@ -39,11 +36,9 @@ export default function CourseStatus() {
             </button>
             <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">
                 <FaHome className="me-2 fs-5" />
-
                 Choose Home Page
             </button>
             <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">
-
                 <RiBarChart2Fill className="me-2 fs-5" />
                 View Course Stream
             </button>
@@ -59,8 +54,6 @@ export default function CourseStatus() {
                 <FaRegBell className="me-2 fs-5" />
                 View Course Notification
             </button>
-
-
         </div>
     );
 }
