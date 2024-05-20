@@ -8,7 +8,6 @@ export default function AssignmentEditor() {
 
 
 
-
                     <div>
                         <div className="mb-3">
                             <label htmlFor="wd-name" className="col col-form-label">Assignment Name</label>
@@ -16,24 +15,24 @@ export default function AssignmentEditor() {
                                 <input id="wd-name" className="form-control" value="A1" />
                             </div>
                         </div>
-                        <div className="row mb-3">
-                            <label htmlFor="wd-editor-assignment-description" className="col-form-label">
+                        <div class="row mb-3">
+                            <label for="wd-editor-assignment-description" class="col-form-label">
                                 Description </label>
-                            <textarea
-                                className="form-control"
-                                id="wd-editor-assignment-description"
-                                rows={10}
-                                defaultValue={
-                                    `The assignment is available online Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following:
-1. Your full name and section
-2. Links to each of the lab assignments
-3. Links to the Kanban application
-4. Links to all relevant source code repositories.
-
-The Kanban application should include a link to navigate back to the landing page.`
-                                }
-                            />
+                            <div id="wd-editor-assignment-description" class="form-control contentEditable" contenteditable="true">
+                                The assignment is <span class="text-danger">available online</span> <br /> <br />
+                                Submit a link to the landing page of your Web application running on Netlify. <br /><br />
+                                The landing page should include the following: <br /><br />
+                                <ul>
+                                    <li>Your full name and section</li>
+                                    <li>Links to each of the lab assignments</li>
+                                    <li>Links to the Kanbas application</li>
+                                    <li>Links to all relevant source code repositories</li>
+                                </ul>
+                                The Kanbas application should include a link to navigate back to the landing page.
+                            </div>
                         </div>
+
+
 
                         <div className="row mb-3">
                             <label htmlFor="wd-points" className="col-3 col-form-label text-end">Points</label>
@@ -73,22 +72,22 @@ The Kanban application should include a link to navigate back to the landing pag
                                     <option value="Online">Online</option>
                                     <option value="In-Person">In-Person</option>
                                 </select>
-                                <div className="col p-1">Online Entry Options: </div>
+                                <div className="col mt-2 p-1">Online Entry Options: </div>
                                 <div className="col">
                                     <div className="form-check">
-                                        <input type="checkbox" className="form-check-input p-1" id="wd-text-entry" />
+                                        <input type="checkbox" className="form-check-input mt-2 p-1" id="wd-text-entry" />
                                         <label className="form-check-label" htmlFor="wd-text-entry">Text Entry</label>
                                     </div>
                                     <div className="form-check">
-                                        <input type="checkbox" className="form-check-input p-1" id="wd-website-url" />
+                                        <input type="checkbox" className="form-check-input mt-2 p-1" id="wd-website-url" />
                                         <label className="form-check-label" htmlFor="wd-website-url">Website URLy</label>
                                     </div>
                                     <div className="form-check">
-                                        <input type="checkbox" className="form-check-input p-1" id="wd-media-recordings" />
+                                        <input type="checkbox" className="form-check-input mt-2 p-1" id="wd-media-recordings" />
                                         <label className="form-check-label" htmlFor="wd-media-recordings">Media Recordings</label>
                                     </div>
                                     <div className="form-check">
-                                        <input type="checkbox" className="form-check-input p-1" id="wd-student-annotation" />
+                                        <input type="checkbox" className="form-check-input mt-2 p-1" id="wd-student-annotation" />
                                         <label className="form-check-label" htmlFor="wd-student-annotation">Student Annotation</label>
                                     </div>
                                     <div className="form-check">
@@ -103,12 +102,12 @@ The Kanban application should include a link to navigate back to the landing pag
                         <div className="row mb-3">
                             <label htmlFor="wd-assign-to" className="col-3 col-form-label text-end">Assign To</label>
                             <div className="col border rounded p-3">
-                                <div className="col p-1 input-group align-items-center border rounded">
+
+                                <div id="wd-assign-to-student" className="col p-1 input-group align-items-center border rounded">
                                     <div className="bg-secondary  m-1 p-1 rounded" >
                                         EveryOne
                                         <RxCross2 />
                                     </div>
-
                                 </div>
 
                                 <div className="col p-1">
