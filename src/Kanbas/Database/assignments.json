@@ -1,0 +1,569 @@
+[
+  {
+    "_id": "A101",
+    "title": "Propulsion Assignment",
+    "course": "RS101",
+    "availablTo": "May 6 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 13 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A102",
+    "title": "Combustion Analysis",
+    "course": "RS101",
+    "availableTo": "May 13 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 14 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A103",
+    "title": "Nozzle Design Project",
+    "course": "RS101",
+    "availableTo": "May 15 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 16 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A201",
+    "title": "Aerodynamics Quiz",
+    "course": "RS102",
+    "availableTo": "May 17 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 18 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A202",
+    "title": "Flow Analysis",
+    "course": "RS102",
+    "availableTo": "May 18 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 20 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A203",
+    "title": "Heating Analysis",
+    "course": "RS102",
+    "availableTo": "May 21 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 22 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A301",
+    "title": "Structural Design Task",
+    "course": "RS103",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A302",
+    "title": "Orbital Calculations",
+    "course": "RS103",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A303",
+    "title": "Systems Engineering Exam",
+    "course": "RS103",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A401",
+    "title": "Organic Chemistry_assignment1",
+    "course": "RS104",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A402",
+    "title": "Organic Chemistry_assignment2",
+    "course": "RS104",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A403",
+    "title": "Organic Chemistry_assignment3",
+    "course": "RS104",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A501",
+    "title": "Inorganic Chemistry_assignment1",
+    "course": "RS105",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A502",
+    "title": "Inorganic Chemistry_assignment2",
+    "course": "RS105",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A503",
+    "title": "Inorganic Chemistry_assignment3",
+    "course": "RS105",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A601",
+    "title": "Physical Chemistry_assignment1",
+    "course": "RS106",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A602",
+    "title": "Physical Chemistry_assignment2",
+    "course": "RS106",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A603",
+    "title": "Physical Chemistry_assignment3",
+    "course": "RS106",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A701",
+    "title": "Ancient Languages and Scripts of Middle-1assignment1",
+    "course": "RS107",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A702",
+    "title": "Ancient Languages and Scripts of Middle-earth_assignment2",
+    "course": "RS107",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A703",
+    "title": "Ancient Languages and Scripts of Middle-earth_assignment3",
+    "course": "RS107",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A801",
+    "title": "Wizards, Elves, and Men: Inter-species Diplomacy in Middle-earth_assignment1",
+    "course": "RS108",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A802",
+    "title": "Wizards, Elves, and Men: Inter-species Diplomacy in Middle-earth_assignment2",
+    "course": "RS108",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A803",
+    "title": "Wizards, Elves, and Men: Inter-species Diplomacy in Middle-earth_assignment3",
+    "course": "RS108",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A901",
+    "title": "History and Practice of Middle-earth Magic_assignment1",
+    "course": "RS109",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A902",
+    "title": "History and Practice of Middle-earth Magic_ME103_assignment2",
+    "course": "RS109",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A903",
+    "title": "History and Practice of Middle-earth Magic_assignment3",
+    "course": "RS109",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1001",
+    "title": "Principles of Democratic Education_assignment1",
+    "course": "RS110",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1002",
+    "title": "Principles of Democratic Education_assignment2",
+    "course": "RS110",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1003",
+    "title": "Principles of Democratic Education_assignment3",
+    "course": "RS110",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1101",
+    "title": "Philosophy of Independence and Liberation_assignment1",
+    "course": "RS111",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1102",
+    "title": "Philosophy of Independence and Liberation_assignment2",
+    "course": "RS111",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1103",
+    "title": "Philosophy of Independence and Liberation_assignment3",
+    "course": "RS111",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1201",
+    "title": "Innovations in Early 19th Century Education_assignment1",
+    "course": "RS112",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1202",
+    "title": "Innovations in Early 19th Century Education_assignment2",
+    "course": "RS112",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1203",
+    "title": "Innovations in Early 19th Century Education_assignment3",
+    "course": "RS112",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1301",
+    "title": "Foundations of Christian Ethics_assignment1",
+    "course": "RS113",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1302",
+    "title": "Foundations of Christian Ethics_assignment2",
+    "course": "RS113",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1303",
+    "title": "Foundations of Christian Ethics_assignment3",
+    "course": "RS113",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1401",
+    "title": "Early Christianity and the Apostolic Age_assignment1",
+    "course": "RS114",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1402",
+    "title": "FEarly Christianity and the Apostolic Age_assignment2",
+    "course": "RS114",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1403",
+    "title": "Early Christianity and the Apostolic Age_assignment3",
+    "course": "RS114",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1501",
+    "title": "Leadership and Service in Christian Communities_assignment1",
+    "course": "RS115",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1502",
+    "title": "Leadership and Service in Christian Communities_assignment2",
+    "course": "RS115",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1503",
+    "title": "Leadership and Service in Christian Communities_assignment3",
+    "course": "RS115",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1601",
+    "title": "Sufi Philosophy and Mystical Traditions_assignment1",
+    "course": "RS116",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1602",
+    "title": "Sufi Philosophy and Mystical Traditions_assignment2",
+    "course": "RS116",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1603",
+    "title": "Sufi Philosophy and Mystical Traditions_assignment3",
+    "course": "RS116",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1701",
+    "title": "Ethical Wisdom in Islamic Teachings_assignment1",
+    "course": "RS117",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1702",
+    "title": "Ethical Wisdom in Islamic Teachings_assignment2",
+    "course": "RS117",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1703",
+    "title": "Ethical Wisdom in Islamic Teachings_assignment3",
+    "course": "RS117",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1801",
+    "title": "Understanding the Unseen: Islamic Esotericism_assignment1",
+    "course": "RS118",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1802",
+    "title": "Understanding the Unseen: Islamic Esotericism_assignment2",
+    "course": "RS118",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1803",
+    "title": "Understanding the Unseen: Islamic Esotericism_assignment3",
+    "course": "RS118",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1901",
+    "title": "Ancient Chinese Environmental Management_assignment1",
+    "course": "RS119",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1902",
+    "title": "Ancient Chinese Environmental Management_assignment2",
+    "course": "RS119",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A1903",
+    "title": "Ancient Chinese Environmental Management_assignment3",
+    "course": "RS119",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A2001",
+    "title": "Leadership Lessons from Chinese Mythology_assignment1",
+    "course": "RS120",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A2002",
+    "title": "Leadership Lessons from Chinese Mythology_assignment2",
+    "course": "RS120",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A2003",
+    "title": "Leadership Lessons from Chinese Mythology_assignment3",
+    "course": "RS120",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A2101",
+    "title": "Hydraulic Engineering in Ancient Civilizations_assignment1",
+    "course": "RS121",
+    "availableTo": "May 23 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 25 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A2102",
+    "title": "Hydraulic Engineering in Ancient Civilizations_assignment2",
+    "course": "RS121",
+    "availableTo": "May 26 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 28 at 11:59pm",
+    "points": "100"
+  },
+  {
+    "_id": "A2103",
+    "title": "Hydraulic Engineering in Ancient Civilizations_assignment3",
+    "course": "RS121",
+    "availableTo": "May 29 at 12:00am",
+    "availableUntil": "June 1 at 12:00am",
+    "dueDate": "May 30 at 11:59pm",
+    "points": "100"
+  }
+]
