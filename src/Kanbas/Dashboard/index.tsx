@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { courses } from "../Database";
+
 export default function Dashboard() {
     return (
         <div id="wd-dashboard">
@@ -8,10 +9,10 @@ export default function Dashboard() {
             <div id="wd-dashboard-courses" className="row">
                 <div className="row row-cols-1 row-cols-md-5 g-4">
                     {courses.map((course) => (
-                        <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+                        <div key={course._id} className="wd-dashboard-course col" style={{ width: "300px" }}>
                             <Link to={`/Kanbas/Courses/${course._id}/Home`} className="text-decoration-none" >
                                 <div className="card rounded-3 overflow-hidden">
-                                    <img src="/images/reactjs.jpg" height="{160}" />
+                                    <img src={course.img_url} height="160" alt={course.name} />
                                     <div className="card-body">
                                         <span className="wd-dashboard-course-link"
                                             style={{ textDecoration: "none", color: "navy", fontWeight: "bold" }} >
