@@ -29,11 +29,26 @@ export default function AssignmentEditor() {
             console.log("new track")
             console.log(assignment)
         }
+        dispatch(setAssignment(defaultAssignment));
         navigate(`/Kanbas/Courses/${cid}/Assignments`);
     };
 
     // const isNew = aid === "new";
     // console.log("isNew:", isNew);
+
+
+    const defaultAssignment = {
+        title: "New Assignment",
+        description: "New Assignment Description",
+        points: "100",
+        dueDate: "",
+        availableFrom: "",
+        availableUntil: "",
+        course: cid
+    };
+    if (aid === "new" && assignment._id) {
+        dispatch(setAssignment(defaultAssignment));
+    }
 
     const parsedDueDate = parseDateString(assignment.dueDate)
     const parsedAvailableFrom = parseDateString(assignment.availableFrom)
@@ -55,7 +70,7 @@ export default function AssignmentEditor() {
                                 onChange={(e) => dispatch(setAssignment({ ...assignment, title: e.target.value }))}
                             />
                         </div>
-                        <div className="row mb-3">
+                        <div className="row mb-3 ms-1">
                             <textarea
                                 id="assignmentDescription"
                                 className="form-control mb-2"
@@ -77,7 +92,7 @@ export default function AssignmentEditor() {
                         </div>
                         <div className="row mb-3">
                             <div className="col-3   text-end">Assign</div>
-                            <div className="col border">
+                            <div className="col border rounded">
                                 <label htmlFor="dueDate" className="col-form-label text-end">Due</label>
                                 <div className="col">
                                     <input
