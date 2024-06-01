@@ -142,9 +142,9 @@ export default function Assignments() {
                     </div>
                 </div>
             )}
-            <pre>
+            {/* <pre>
                 {JSON.stringify(assignments, null, 2)}
-            </pre>
+            </pre> */}
 
         </div>
     );
