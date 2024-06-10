@@ -39,21 +39,35 @@ export default function AssignmentEditor() {
         }));
     };
 
+    // const handleSave = () => {
+    //     if (assignment._id) {
+    //         // Existing assignment
+    //         client.updateAssignment(assignment).then((updatedAssignment) => {
+    //             dispatch(updateAssignment(updatedAssignment));
+    //         });
+    //     } else {
+    //         // New assignment, assign a unique _id
+    //         client.createAssignment(cid, assignment).then((newAssignment) => {
+    //             dispatch(addAssignment(newAssignment));
+    //         });
+    //     }
+    //     navigate(`/Kanbas/Courses/${cid}/Assignments`);
+    // };
     const handleSave = () => {
-        if (assignment._id) {
+        const currentAssignment = { ...assignment }; // 确保使用最新的状态
+        if (currentAssignment._id) {
             // Existing assignment
-            client.updateAssignment(assignment).then((updatedAssignment) => {
+            client.updateAssignment(currentAssignment).then((updatedAssignment) => {
                 dispatch(updateAssignment(updatedAssignment));
             });
         } else {
             // New assignment, assign a unique _id
-            client.createAssignment(cid, assignment).then((newAssignment) => {
+            client.createAssignment(cid, currentAssignment).then((newAssignment) => {
                 dispatch(addAssignment(newAssignment));
             });
         }
         navigate(`/Kanbas/Courses/${cid}/Assignments`);
     };
-
 
     return (
         <div className="flex-fill">
