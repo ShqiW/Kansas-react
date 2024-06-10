@@ -39,20 +39,7 @@ export default function AssignmentEditor() {
         }));
     };
 
-    // const handleSave = () => {
-    //     if (assignment._id) {
-    //         // Existing assignment
-    //         client.updateAssignment(assignment).then((updatedAssignment) => {
-    //             dispatch(updateAssignment(updatedAssignment));
-    //         });
-    //     } else {
-    //         // New assignment, assign a unique _id
-    //         client.createAssignment(cid, assignment).then((newAssignment) => {
-    //             dispatch(addAssignment(newAssignment));
-    //         });
-    //     }
-    //     navigate(`/Kanbas/Courses/${cid}/Assignments`);
-    // };
+
     const handleSave = () => {
         const currentAssignment = { ...assignment }; // 确保使用最新的状态
         if (currentAssignment._id) {
