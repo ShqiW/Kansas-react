@@ -8,8 +8,10 @@ import Grades from "./Grades";
 import Piazza from "./Piazza";
 import Zoom from "./Zoom";
 import Quizzes from "./Quizzes";
-import People from "./People";
 import { FaAlignJustify } from "react-icons/fa6";
+import PeopleTable from "./People/Table";
+import People from "./People";
+import PeopleDetails from "./People/Details";
 
 
 export default function Courses({ courses }: { courses: any[] }) {
@@ -17,11 +19,7 @@ export default function Courses({ courses }: { courses: any[] }) {
     const course = courses.find((course) => course._id === cid);
     const { pathname } = useLocation();
 
-    // console.log("useParams() ->", useParams());
-    // console.log(cid)
-    // console.log("course ->", courses);
-    // console.log("pathname ->", pathname);
-    // Kanbas - Courses - Navigation - index.tsx: pathname -> /Kanbas/Courses / 1234 / Home
+
 
     return (
         <div id="wd-courses">
@@ -47,7 +45,8 @@ export default function Courses({ courses }: { courses: any[] }) {
                         <Route path="Assignments/:aid" element={<AssignmentEditor />} />
                         <Route path="Quizzes" element={<Quizzes />} />
                         <Route path="Grades" element={<Grades />} />
-                        <Route path="People" element={<People />} />
+                        <Route path="People" element={<PeopleTable />} />
+                        <Route path="People/:uid" element={<PeopleTable />} />
                         <Route path="Setting" element={<Grades />} />
 
                     </Routes>
