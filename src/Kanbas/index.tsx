@@ -9,6 +9,7 @@ import store from "./store";
 import { Provider } from "react-redux"
 import Account from "./Courses/Account";
 import ProtectedRoute from "./ProtectedRoute";
+import Session from "./Courses/Account/Session";
 
 
 export default function Kanbas() {
@@ -56,35 +57,37 @@ export default function Kanbas() {
 
     return (
         <Provider store={store}>
-            <div id="wd-kanbas" className="h-100">
-                <div className="d-flex h-100">
-                    <div className="d-none d-md-block bg-black">
-                        <KanbasNavigation />
-                    </div>
-                    <div className="flex-fill p-4">
-                        <Routes>
-                            <Route path="/" element={<Navigate to="Dashboard" />} />
-                            <Route path="/Account/*" element={<Account />} />
-                            <Route path="Dashboard" element={
-                                <ProtectedRoute>
-                                    <Dashboard
-                                        courses={courses}
-                                        course={course}
-                                        setCourse={setCourse}
-                                        addNewCourse={addNewCourse}
-                                        deleteCourse={deleteCourse}
-                                        updateCourse={updateCourse} />
-                                </ProtectedRoute>
-                            } />
-                            <Route path="Courses/:cid/*" element={
-                                <ProtectedRoute>
-                                    <Courses courses={courses} />
-                                </ProtectedRoute>} />
-                        </Routes>
+            <Session>
+                <div id="wd-kanbas" className="h-100">
+                    <div className="d-flex h-100">
+                        <div className="d-none d-md-block bg-black">
+                            <KanbasNavigation />
+                        </div>
+                        <div className="flex-fill p-4">
+                            <Routes>
+                                <Route path="/" element={<Navigate to="Dashboard" />} />
+                                <Route path="/Account/*" element={<Account />} />
+                                <Route path="Dashboard" element={
+                                    <ProtectedRoute>
+                                        <Dashboard
+                                            courses={courses}
+                                            course={course}
+                                            setCourse={setCourse}
+                                            addNewCourse={addNewCourse}
+                                            deleteCourse={deleteCourse}
+                                            updateCourse={updateCourse} />
+                                    </ProtectedRoute>
+                                } />
+                                <Route path="Courses/:cid/*" element={
+                                    <ProtectedRoute>
+                                        <Courses courses={courses} />
+                                    </ProtectedRoute>} />
+                            </Routes>
 
+                        </div>
                     </div>
-                </div>
-            </div>;
+                </div>;
+            </Session>
         </Provider>
     )
 }
